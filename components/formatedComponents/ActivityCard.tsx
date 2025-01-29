@@ -13,7 +13,7 @@ export default function ActivityCard({
 }: ActivityCardProps) {
     return (
         <div
-            className={`p-4 rounded-lg shadow-md flex flex-col justify-between h-full  ${additionalClass}`}
+            className={`p-4 flex flex-col justify-between h-full  ${additionalClass}`}
             style={{ backgroundColor }}
         >
             {/* Título no topo */}

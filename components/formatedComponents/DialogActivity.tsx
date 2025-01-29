@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button"
 import { Separator } from "@/components/ui/separator"
 import {
     Dialog,
@@ -9,11 +8,17 @@ import {
     DialogTrigger,
 } from "@/components/ui/dialog"
 
+interface KeyPoint {
+    title?: string;
+    details?: string;
+    todo?: string[];
+}
+
 interface Activity {
-    time: string,
-    name: string,
-    location: string,
-    key_points: Array<any>
+    time: string;
+    name: string;
+    location: string;
+    key_points: KeyPoint[];
 }
 
 interface DialogActivityProps {
@@ -27,10 +32,14 @@ export default function DialogActivity({
     activity,
     backgroundColor
 }: DialogActivityProps) {
+    console.log(activity)
     return (
         <Dialog>
             <DialogTrigger>
-                <div className={`flex w-full h-32  shadow-md bg-white p-4 ${additionalClass}`}>
+                <div
+                    className={`flex w-full h-32  shadow-md bg-white p-4 ${additionalClass}`}
+                    style={{ backgroundColor }}
+                >
                     <div className="w-1/5 flex flex-col items-center justify-center space-y-4 p-2">
                         <p>22h45</p>
                         <Separator />

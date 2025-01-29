@@ -1,6 +1,6 @@
 import DialogActivity from "@/components/formatedComponents/DialogActivity";
 
-export default function Home() {
+export default function Hoje() {
   return (
     <div className="flex flex-col h-screen overflow-y-auto pb-20 bg-gray-100">
 
@@ -12,11 +12,20 @@ export default function Home() {
         </h2>
       </div>
 
-      {/* Cards com proporção 1/4, 2/4, 1/4 */}
       <div className="flex flex-col flex-1 h-full p-4  space-y-4 ">
         <DialogActivity
-          additionalClass=" flex-[1] shadow-lg rounded-xl p-4"
-          backgroundColor="#FDE68A"
+          additionalClass=" shadow-lg rounded-xl p-4"
+          backgroundColor=""
+        />
+
+        <DialogActivity
+          additionalClass=" shadow-lg rounded-xl p-4"
+          backgroundColor=""
+        />
+
+        <DialogActivity
+          additionalClass=" shadow-lg rounded-xl p-4"
+          backgroundColor=""
         />
       </div>
     </div>

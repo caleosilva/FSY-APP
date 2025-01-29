@@ -32,7 +32,6 @@ export default function DialogActivity({
     activity,
     backgroundColor
 }: DialogActivityProps) {
-    console.log(activity)
     return (
         <Dialog>
             <DialogTrigger>
@@ -41,15 +40,15 @@ export default function DialogActivity({
                     style={{ backgroundColor }}
                 >
                     <div className="w-1/5 flex flex-col items-center justify-center space-y-4 p-2">
-                        <p>22h45</p>
+                        <p>{activity?.time.split(" - ")[0]}</p>
                         <Separator />
-                        <p>18h00</p>
+                        <p>{activity?.time.split(" - ")[1]}</p>
                     </div>
 
                     <Separator orientation="vertical" />
 
                     <div className="w-4/5 flex items-center justify-center">
-                        <p className="text-lg font-bold"> Nome da atividade </p>
+                        <p className="text-md "> {`${activity?.name}`} </p>
                     </div>
                 </div>
 

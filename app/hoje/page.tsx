@@ -1,6 +1,11 @@
+"use client"
+
 import DialogActivity from "@/components/formatedComponents/DialogActivity";
+import { useActivities } from "@/hooks/useActivities";
 
 export default function Hoje() {
+  const activities = useActivities("dia1");
+
   return (
     <div className="flex flex-col h-screen overflow-y-auto pb-20 bg-gray-100">
 
@@ -12,21 +17,15 @@ export default function Hoje() {
         </h2>
       </div>
 
-      <div className="flex flex-col flex-1 h-full p-4  space-y-4 ">
-        <DialogActivity
-          additionalClass=" shadow-lg rounded-xl p-4"
-          backgroundColor=""
-        />
-
-        <DialogActivity
-          additionalClass=" shadow-lg rounded-xl p-4"
-          backgroundColor=""
-        />
-
-        <DialogActivity
-          additionalClass=" shadow-lg rounded-xl p-4"
-          backgroundColor=""
-        />
+      <div className="flex flex-col flex-1 h-full p-4  space-y-4 pb-20 ">
+        {activities.map((activity, index) => (
+          <DialogActivity
+            key={index}
+            activity={activity}
+            additionalClass="rounded-lg"
+            backgroundColor="#ffffff"
+          />
+        ))}
       </div>
     </div>
   );

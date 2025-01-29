@@ -1,0 +1,190 @@
+{
+    "1": {
+        "time": "8h30 - 9h15",
+        "name": "Reunião administrativa",
+        "location": "A definir",
+        "key_points": [
+            {
+                "title": "Última reunião da liderança",
+                "details": "Certifique-se de estar pontual e atento a alterações na programação ou comunicados importantes."
+            }
+        ]
+    },
+    "2": {
+        "time": "11h - 13h",
+        "name": "Chegada dos participantes",
+        "location": "A definir",
+        "key_points": [
+            {
+                "title": "Primeira impressão",
+                "details": "Seja sociável, amigável e siga os padrões de vestuário para transmitir confiança no programa."
+            },
+            {
+                "title": "Organização inicial",
+                "details": "Ajude a organizar suprimentos, materiais e crachás em ordem alfabética para uma recepção eficiente. Procure seu CA para mais informações."
+            },
+            {
+                "title": "Flexibilidade e suporte",
+                "details": "Ofereça ajuda extra e encaminhe perguntas para o coordenador de apoio."
+            },
+            {
+                "title": "Dúvidas",
+                "details": "Quaisquer perguntas sobre inscrição no local ou troca de quarto devem ser encaminhadas ao coordenador."
+            }
+        ]
+    },
+    "3": {
+        "time": "13h15 - 14h",
+        "name": "Conheça seu consultor",
+        "location": "A definir",
+        "key_points": [
+            {
+                "title": "Ajuda inicial",
+                "details": "Ajude-os a perceber o tipo de oportunidades e experiências pessoais que estão à disposição deles."
+            },
+            {
+                "title": "Enfoque espiritual",
+                "details": "Compartilhe escrituras, testemunho e motive os participantes a se conectarem espiritualmente durante a semana."
+            },
+            {
+                "todo": [
+                    "Use uma atividade ou um jogo para ajudar todos a se conhecerem e aprenderem o nome uns dos outros.",
+                    "Explique as normas e os regulamentos do FSY.",
+                    "Estude com eles a lista de verificação de regras no manual do participante.",
+                    "Converse sobre o que é esperado quanto ao vestuário e à aparência.",
+                    "Pergunte-lhes como você pode ajudá-los a terem uma ótima semana e seja receptivo às sugestões deles.",
+                    "Preparação para a atividade O Cristo Vivo"
+                ]
+            }
+        ]
+    },
+    "4": {
+        "time": "14h15 - 15h25",
+        "name": "Conheça sua companhia + Elaborar Metas",
+        "location": "Local de sua companhia",
+        "key_points": [
+            {
+                "title": "Apresentação e união",
+                "details": "Use jogos para criar uma atmosfera amigável e decida um nome para a companhia com base na escritura."
+            },
+            {
+                "title": "Explicação sobre metas",
+                "details": "Determine quem liderará essa parte no planejamento com o consultor adjunto. Preste um breve testemunho sobre a importância de elaborarmos metas."
+            },
+            {
+                "title": "Planejamento de metas",
+                "details": "Auxilie os jovens na definição de metas coletivas (para a companhia) e individuais para a semana (dê aos jovens um tempo para definirem)."
+            },
+            {
+                "title": "Cumprimento de metas",
+                "details": "As metas para a semana devem ser definidas de tal modo que possam ser cumpridas durante o FSY."
+            }
+        ]
+    },
+    "5": {
+        "time": "15h40 - 16h25",
+        "name": "Orientação",
+        "location": "Auditório central",
+        "key_points": [
+            {
+                "title": "Conheça a liderança",
+                "details": "Sente com sua companhia, anime os jovens e ajude-os a se conectarem com o casal diretor da sessão e a liderança."
+            }
+        ]
+    },
+    "6": {
+        "time": "17h - 17h50",
+        "name": "Jogos da noite familiar e debate de avaliação",
+        "location": "Local de sua companhia",
+        "key_points": [
+            {
+                "title": "Jogos e aprendizado",
+                "details": "Promova conexão entre os jovens e conduza debates que relacionem os princípios do evangelho aos jogos."
+            }
+        ]
+    },
+    "7": {
+        "time": "18h - 19h30",
+        "name": "Jantar",
+        "location": "Refeitório",
+        "key_points": [
+            {
+                "title": "Aproximação",
+                "details": "Converse com o máximo de participantes quanto for possível, aprenda seus nomes e os ajude a sentirem à vontade."
+            },
+            {
+                "title": "A união faz a força",
+                "details": "Mantenha os membros da companhia juntos no jantar para que fiquem unidos e vão juntos para a noite familiar."
+            }
+        ]
+    },
+    "8": {
+        "time": "19h45 - 20h35",
+        "name": "Lição da noite familiar",
+        "location": "Auditório central",
+        "key_points": [
+            {
+                "title": "silêncio e trabalho",
+                "details": "Sente-se com sua companhia e aprenda com o casal diretor de sessão. Ajude seu grupo a ficar reverente."
+            }
+        ]
+    },
+    "9": {
+        "time": "20h45 - 21h15",
+        "name": "Refletir e analisar",
+        "location": "A definir",
+        "key_points": [
+            {
+                "title": "Discussão espiritual",
+                "details": "Crie um ambiente espiritual para reflexões e compartilhe testemunhos sobre experiências do dia."
+            },
+            {
+                "title": "Oportunidade de participação",
+                "details": "Essa atividade possibilita aos jovens mais oportunidades de participar e lhes permitem aprender de maneira mais pessoal."
+            },
+            {
+                "title": "Papel do consultor",
+                "details": "Seu trabalho não é apresentar uma lição ou uma mensagem; é criar um ambiente cheio do Espírito e incentivar os jovens a refletir e compartilhar o que aprenderam e sentiram ao longo do dia."
+            },
+            {
+                "todo": [
+                    "Comece com uma oração e cante um hino breve com eles.",
+                    "Se necessário, compartilhe uma experiência pessoal que tenha sido significativa.",
+                    "Faça perguntas que levem à ponderação",
+                    "Ao finalizar o debate, dê os últimos avisos, lembretes e designações aos seus jovens.",
+                    "Finalize com uma oração. Estimule aos jovens a realizarem suas orações pessoais antes que as luzes se apaguem."
+                ]
+            }
+        ]
+    },
+    "10": {
+        "time": "21h15 - 22h10",
+        "name": "Contagem dos participantes, higiene pessoal, hora do silêncio, estudo pessoal/diário",
+        "location": "Nos quartos",
+        "key_points": [
+            {
+                "title": "Verificar e informar",
+                "details": "Depois de verificar se todos os jovens estão em seus quartos, informe seu coordenador assistente."
+            },
+            {
+                "title": "Instruir sobre a hora do silêncio",
+                "details": "Ensine-os sobre a importância de manter um diário. Eles terão muitas experiências especiais nesta semana e valorizarão seu diário se mantiverem um registro delas."
+            },
+            {
+                "title": "O que não fazer",
+                "details": "Esse tempo não deve ser usado para enviar mensagens de texto, telefonar ou jogar jogos eletrônicos."
+            }
+        ]
+    },
+    "11": {
+        "time": "22h10",
+        "name": "Apagar as luzes",
+        "location": "Nos quartos",
+        "key_points": [
+            {
+                "title": "Importância do descanso",
+                "details": "Ensine os jovens sobre a relevância de uma boa noite de sono para aproveitar ao máximo a semana."
+            }
+        ]
+    }
+}

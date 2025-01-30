@@ -39,7 +39,6 @@ export default function DialogActivity({
     activity,
     backgroundColor
 }: DialogActivityProps) {
-    console.log(activity)
     return (
         <Dialog>
             <DialogTrigger>

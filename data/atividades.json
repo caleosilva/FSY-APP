@@ -61,7 +61,7 @@
     "4": {
         "time": "14h15 - 15h25",
         "name": "Conheça sua companhia + Elaborar Metas",
-        "location": "Local de sua companhia",
+        "location": "Local da companhia",
         "key_points": [
             {
                 "title": "Apresentação e união",
@@ -95,7 +95,7 @@
     "6": {
         "time": "17h - 17h50",
         "name": "Jogos da noite familiar e debate de avaliação",
-        "location": "Local de sua companhia",
+        "location": "Local da companhia",
         "key_points": [
             {
                 "title": "Jogos e aprendizado",
@@ -124,7 +124,7 @@
         "location": "Auditório central",
         "key_points": [
             {
-                "title": "silêncio e trabalho",
+                "title": "Silêncio e trabalho",
                 "details": "Sente-se com sua companhia e aprenda com o casal diretor de sessão. Ajude seu grupo a ficar reverente."
             }
         ]

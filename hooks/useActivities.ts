@@ -1,22 +1,10 @@
 "use client"
 
 import { useEffect, useState } from "react";
-
 import daysResponse from "@/data/dias.json"
 import activitiesResponseImport from "@/data/atividades.json"
+import { Activity } from "@/types/activity";
 
-interface KeyPoint {
-  title?: string;
-  details?: string;
-  todo?: string[];
-}
-
-interface Activity {
-  time: string;
-  name: string;
-  location: string;
-  key_points: KeyPoint[];
-}
 
 interface DaysResponse {
   dia1: string[];

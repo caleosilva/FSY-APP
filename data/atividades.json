@@ -113,8 +113,8 @@
                 "details": "Converse com o máximo de participantes quanto for possível, aprenda seus nomes e os ajude a sentirem à vontade."
             },
             {
-                "title": "A união faz a força",
-                "details": "Mantenha os membros da companhia juntos no jantar para que fiquem unidos e vão juntos para a noite familiar."
+                "title": "Organização",
+                "details": "Os jovens devem estar cientes do ponto de encontro após o jantar."
             }
         ]
     },
@@ -184,6 +184,296 @@
             {
                 "title": "Importância do descanso",
                 "details": "Ensine os jovens sobre a relevância de uma boa noite de sono para aproveitar ao máximo a semana."
+            }
+        ]
+    },
+    "12": {
+        "time": "7h - 7h45",
+        "name": "Acordar e se preparar para o dia",
+        "location": "Nos quartos",
+        "key_points": [
+            {
+                "title": "Pontualidade",
+                "details": "Acorde no horário e se prepare para as atividades do dia."
+            },
+            {
+                "title": "Orientação aos jovens",
+                "details": "Dê as instruções necessárias aos jovens antes da reunião com o coordenador assistente."
+            }
+        ]
+    },
+    "13": {
+        "time": "7h45 - 8h",
+        "name": "Reunião matutina do coordenador assistente/consultor",
+        "location": "A definir",
+        "key_points": [
+            {
+                "title": "Recebimento de anúncios",
+                "details": "Fique atento às mudanças na programação e orientações diárias."
+            },
+            {
+                "title": "Pensamento espiritual",
+                "details": "O coordenador assistente compartilhará um breve pensamento espiritual."
+            }
+        ]
+    },
+    "14": {
+        "time": "8h - 8h15",
+        "name": "Devocional Matutino dos Participantes",
+        "location": "A definir",
+        "key_points": [
+            {
+                "title": "Ensinamento entre jovens",
+                "details": "Um jovem do grupo designado pelo consultor ensinará um breve devocional."
+            },
+            {
+                "title": "Anúncios e planejamento",
+                "details": "Repasse os anúncios e atividades do dia, assegurando que todos saibam os horários e locais."
+            },
+            {
+                "title": "Relembrar metas",
+                "details": "Incentive os participantes a refletirem sobre suas metas."
+            }
+        ]
+    },
+    "15": {
+        "time": "8h15 - 9h15",
+        "name": "Desjejum",
+        "location": "Refeitório",
+        "key_points": [
+            {
+                "title": "Comportamento adequado",
+                "details": "Ajude os jovens a manterem um comportamento adequado durante a refeição."
+            },
+            {
+                "title": "Seja um exemplo",
+                "details": "Demonstre atitudes corretas para os jovens seguirem."
+            }
+        ]
+    },
+    "16": {
+        "time": "9h30 - 10h30",
+        "name": "Reunião Sacramental",
+        "location": "Auditório central",
+        "key_points": [
+            {
+                "title": "Liderança presente",
+                "details": "Presidida Presidente de Estaca."
+            },
+            {
+                "title": "Participação dos jovens",
+                "details": "Discursos e número musical serão apresentados pelos jovens e jovens adultos."
+            }
+        ]
+    },
+    "17": {
+        "time": "10h40 - 11h30",
+        "name": "Estudo do Vem, e Segue-Me",
+        "location": "Local da companhia",
+        "key_points": [
+            {
+                "title": "Cronograma",
+                "details": "",
+                "timeline": [
+                    {
+                        "time": "5 min",
+                        "description": "Hino e oração inicial"
+                    },
+                    {
+                        "time": "10 min",
+                        "description": "Aula do Consultor"
+                    },
+                    {
+                        "time": "20 min",
+                        "description": "Estudo Pessoal"
+                    },
+                    {
+                        "time": "15 min",
+                        "description": "Compartilhar"
+                    },
+                    {
+                        "time": "1 min",
+                        "description": "Oração final"
+                    }
+                ]
+            },
+            {
+                "title": "Objetivo",
+                "details": "Incentivar os jovens a se aproximarem das escrituras e desenvolverem o hábito do estudo diário."
+            },
+            {
+                "title": "Conteúdo de ensino",
+                "details": "Você deve ensinar uma breve lição baseada no bloco de escrituras da designação de estudo do Vem, e Segue-Me da semana."
+            },
+            {
+                "title": "Dicas de ouro",
+                "details": "Todos os dias relembre-os rapidamente sobre o que foi ensinado anteriormente. Lembre-se de colocar em prática o que você ensina."
+            }
+        ]
+    },
+    "18": {
+        "time": "11h45 - 12h45",
+        "name": "Legado - Atividade do Carroção",
+        "location": "Local da companhia",
+        "key_points": [
+            {
+                "title": "Cronograma",
+                "details": "",
+                "timeline": [
+                    {
+                        "time": "15 min",
+                        "description": "Leitura da história e debate/reflexão com perguntas"
+                    },
+                    {
+                        "time": "30 min",
+                        "description": "Confecção do carroção"
+                    },
+                    {
+                        "time": "15 min",
+                        "description": "Apresentação dos carroções e encerramento"
+                    },
+                    {
+                        "time": "1 min",
+                        "description": "Oração final"
+                    }
+                ]
+            },
+            {
+                "title": "História e reflexão",
+                "details": "Leitura do livro Santos seguida de debate sobre fé e legado dos pioneiros."
+            },
+            {
+                "title": "Construção do carroção",
+                "details": "Jovens montam uma miniatura personalizada para representar o que levam do FSY."
+            },
+            {
+                "title": "Personalização do carroção",
+                "details": "Jovens montam uma miniatura personalizada para representar o que levam do FSY."
+            },
+            {
+                "title": "Encerramento",
+                "details": "Cada jovem compartilha o que seu carroção significa para ele."
+            }
+        ]
+    },
+    "19": {
+        "time": "13h - 14h30",
+        "name": "Almoço e ensaio do Programa Musical",
+        "location": "A definir",
+        "key_points": [
+            {
+                "title": "Contagem dos participantes",
+                "details": "Garanta que todos os jovens estejam presentes em seus respectivos locais."
+            },
+            {
+                "title": "Apoio no ensaio",
+                "details": "Consultores podem ser chamados para auxiliar."
+            }
+        ]
+    },
+    "20": {
+        "time": "14h30 - 15h30",
+        "name": "Tempo Livre",
+        "location": "A definir",
+        "key_points": [
+            {
+                "title": "Propósito",
+                "details": "Momento de descanso e interação para os jovens."
+            },
+            {
+                "title": "Responsabilidade dos consultores",
+                "details": "Monitorar locais designados e garantir a segurança dos jovens. Não fique em grupos de consultores."
+            },
+            {
+                "title": "Atenção",
+                "details": "Não é necessário que eles fiquem com os jovens das suas companhias, mas eles precisam estar cientes de que devem estar no local designado ao término do tempo livre."
+            }
+        ]
+    },
+    "21": {
+        "time": "15h40 - 16h40",
+        "name": "Compartilhar o Evangelho",
+        "location": "A definir",
+        "key_points": [
+            {
+                "title": "Aprendizado e preparação",
+                "details": "Jovens estudam e preparam uma breve lição com base no manual Pregar Meu Evangelho."
+            },
+            {
+                "title": "Junção de companhias",
+                "details": "Sua companhia será designada a reunir-se com mais uma ou duas companhias."
+            }
+        ]
+    },
+    "22": {
+        "time": "16h50 - 17h50",
+        "name": "Força dos Jovens",
+        "location": "A definir",
+        "key_points": [
+            {
+                "title": "Cronograma",
+                "details": "",
+                "timeline": [
+                    {
+                        "time": "3 min",
+                        "description": "Introdução"
+                    },
+                    {
+                        "time": "7 min",
+                        "description": "Familiarizar-se com o guia Força dos Jovens"
+                    },
+                    {
+                        "time": "5 min",
+                        "description": "Instrução sobre a atividade"
+                    },
+                    {
+                        "time": "15 min",
+                        "description": "Preparação das atividades das esquetes"
+                    },
+                    {
+                        "time": "25 min",
+                        "description": "Apresentação e debate"
+                    },
+                    {
+                        "time": "5 min",
+                        "description": "Conclusão"
+                    }
+                ]
+            },
+            {
+                "title": "Junção de companhias",
+                "details": "Sua companhia será designada a reunir-se com mais uma ou duas companhias."
+            },
+            {
+                "title": "Objetivo",
+                "details": "Ajudar os jovens a se conectarem com os princípios do guia Força dos Jovens."
+            },
+            {
+                "title": "Atividade",
+                "details": "Os jovens produzem e apresentam esquetes teatrais (no máximo 5 minutos) baseadas nos princípios do guia."
+            },
+            {
+                "title": "Atenção",
+                "details": "Os consultores devem estar com os jovens enquanto eles preparam os esquetes para garantir que o que for encenado esteja de acordo com os princípios do guia."
+            }
+        ]
+    },
+    "23": {
+        "time": "19h45 - 20h35",
+        "name": "Devocional Noturno",
+        "location": "A definir",
+        "key_points": [
+            {
+                "title": "Pontualidade e atenção",
+                "details": "Chegue no horário, sente-se com seus jovens, preste atenção e faça anotações."
+            },
+            {
+                "title": "Envolvimento dos jovens",
+                "details": "Incentive os jovens a prestar atenção e fazer anotações."
+            },
+            {
+                "title": "Oradores",
+                "details": "O devocional será conduzido pelo Setenta de Área, Presidente de Estaca ou o casal diretor da sessão."
             }
         ]
     }

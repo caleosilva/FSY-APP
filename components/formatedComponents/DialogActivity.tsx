@@ -14,19 +14,8 @@ import {
 } from "@/components/ui/accordion"
 
 import FormFieldView from "./FormFieldView";
+import { Activity } from "@/types/activity";
 
-interface KeyPoint {
-    title?: string;
-    details?: string;
-    todo?: string[];
-}
-
-interface Activity {
-    time: string;
-    name: string;
-    location: string;
-    key_points: KeyPoint[];
-}
 
 interface DialogActivityProps {
     additionalClass?: string;
@@ -48,11 +37,11 @@ export default function DialogActivity({
                 >
                     <div className="w-1/5 flex flex-col items-center justify-center space-y-4 p-2">
                         <p>{activity?.time.split(" - ")[0]}</p>
-                        <Separator className="bg-stone-400"/>
+                        <Separator className="bg-stone-400" />
                         <p>{activity?.time.split(" - ")[1]}</p>
                     </div>
 
-                    <Separator orientation="vertical" className="bg-stone-400"/>
+                    <Separator orientation="vertical" className="bg-stone-400" />
 
                     <div className="w-4/5 flex items-center justify-center">
                         <p className="text-md "> {`${activity?.name}`} </p>
@@ -80,11 +69,26 @@ export default function DialogActivity({
                                     <AccordionTrigger>{point.title ? point.title : "Lista do que precisa ser feito"}</AccordionTrigger>
                                     <AccordionContent className="text-left">
                                         <p>{point.details}</p>
+
+                                        {/* Exibir lista de tarefas (todo) */}
                                         {point.todo && point.todo.length > 0 && (
                                             <div className="mt-2">
                                                 <ul className="list-disc pl-5">
                                                     {point.todo.map((task, taskIndex) => (
                                                         <li className="mb-2" key={taskIndex}>{task}</li>
+                                                    ))}
+                                                </ul>
+                                            </div>
+                                        )}
+
+                                        {/* Exibir timeline */}
+                                        {point.timeline && point.timeline.length > 0 && (
+                                            <div className="">
+                                                <ul className="list-disc pl-5 space-y-2">
+                                                    {point.timeline.map((item, timelineIndex) => (
+                                                        <li key={timelineIndex} className="relative">
+                                                            <strong>{item.time}:</strong> {item.description}
+                                                        </li>
                                                     ))}
                                                 </ul>
                                             </div>

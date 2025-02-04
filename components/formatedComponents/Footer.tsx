@@ -27,9 +27,9 @@ export default function Footer() {
                 </Link>
 
                 {/* Sobre */}
-                <Link href="/sobre" className="group text-center flex flex-col items-center transition-transform duration-300 hover:scale-110">
+                <Link href="/logistica" className="group text-center flex flex-col items-center transition-transform duration-300 hover:scale-110">
                     <InfoCircledIcon className="w-6 h-6 mb-1 group-hover:text-blue-400 transition-colors duration-300" />
-                    <p className="text-xs group-hover:text-blue-400">Sobre</p>
+                    <p className="text-xs group-hover:text-blue-400">Logística</p>
                 </Link>
 
             </div>

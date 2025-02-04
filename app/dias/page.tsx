@@ -26,7 +26,7 @@ export default function Dias() {
       <div className="flex flex-col items-start justify-center p-6 bg-white shadow-md ">
         <h1 className="text-xl font-semibold">Dias</h1>
         <h2 className="text-base text-gray-500">
-          Fsy 2025 - Sessão Feira de Santana
+          Informações essenciais sobre as atividades, organizadas por dia.
         </h2>
       </div>
 

@@ -15,9 +15,9 @@ export default function Regras() {
 
       {/* Header */}
       <div className="flex flex-col items-start justify-center p-6 bg-white shadow-md ">
-        <h1 className="text-xl font-semibold">Logística</h1>
+        <h1 className="text-xl font-semibold">Regras</h1>
         <h2 className="text-base text-gray-500">
-          Fsy 2025 - Sessão Feira de Santana
+          Regras e proibições do FSY que devem ser entendidas e passadas aos jovens. 
         </h2>
       </div>
 

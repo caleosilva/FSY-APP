@@ -1,5 +1,6 @@
 {
     "dia1": {
+      "description": "A primeira impressão é a que fica, não podemos dar mole!",
       "topics": [
         "Ler e Conversar sobre nossos sentimentos em relação à Introdução",
         "Quais serão as nossas metas como consultores?",
@@ -15,6 +16,7 @@
       ]
     },
     "dia2": {
+      "description": "Mais um dia, mais uma oportunidade!",
       "topics": [
         "Quem conduzirá o estudo do Vem, e Segue-Me?",
         "Estudar um ou todos os discursos:",
@@ -29,6 +31,7 @@
       ]
     },
     "dia3": {
+      "description": "Já estamos na metade do caminho! Se você ainda está acordado, isso é um grande sinal de progresso!",
       "topics": [
         "Quem conduzirá o estudo do Vem e Segue-Me?",
         "Estudar o Discurso do Vovô Nelson proferido no devocional mundial para os jovens, 'Juventude da promessa', de junho de 2018",
@@ -44,6 +47,7 @@
       ]
     },
     "dia4": {
+      "description": "Apenas mais um dia até alcançarmos a glória (uma noite de sono em nossa cama).",
       "topics": [
         "Quem conduzirá o estudo do Vem e Segue-me?",
         "Dia da atividade do Cristo Vivo: o que podemos fazer para deixar os jovens desejosos por essa atividade e como podemos acompanhar a designação de estudo das duplas?",
@@ -52,6 +56,7 @@
       ]
     },
     "dia5": {
+      "description": "Hoje é o dia de brilhar!",
       "topics": [
         "Quem vai conduzir a atividade Conecte-se?",
         "Como você vai dirigir o debate Refletir e Analisar da companhia no quinto dia?",

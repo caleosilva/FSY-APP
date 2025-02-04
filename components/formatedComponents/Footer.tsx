@@ -18,6 +18,12 @@ export default function Footer() {
                     <p className="text-xs group-hover:text-blue-400">Pré FSY</p>
                 </Link>
 
+                {/* Regras */}
+                <Link href="/regras" className="group text-center flex flex-col items-center transition-transform duration-300 hover:scale-110">
+                    <LockClosedIcon className="w-6 h-6 mb-1 group-hover:text-blue-400 transition-colors duration-300" />
+                    <p className="text-xs group-hover:text-blue-400">Regras</p>
+                </Link>
+
                 {/* Dias */}
                 <Link href="/dias" className="group text-center flex flex-col items-center transition-transform duration-300 hover:scale-110 relative">
                     <ListBulletIcon className="w-6 h-6 mb-1 group-hover:text-blue-400 transition-colors duration-300" />
@@ -31,13 +37,6 @@ export default function Footer() {
                     <InfoCircledIcon className="w-6 h-6 mb-1 group-hover:text-blue-400 transition-colors duration-300" />
                     <p className="text-xs group-hover:text-blue-400">Logística</p>
                 </Link>
-
-                {/* Regras */}
-                <Link href="/regras" className="group text-center flex flex-col items-center transition-transform duration-300 hover:scale-110">
-                    <LockClosedIcon className="w-6 h-6 mb-1 group-hover:text-blue-400 transition-colors duration-300" />
-                    <p className="text-xs group-hover:text-blue-400">Regras</p>
-                </Link>
-
             </div>
         </footer>
 

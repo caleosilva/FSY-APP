@@ -25,17 +25,18 @@ export default function Hoje() {
 
       <div className="p-4 space-y-4">
         <Accordion type="single" collapsible className="space-y-4">
-          {Object.entries(preFSYData).map(([, { topics }], index) => (
+          {Object.entries(preFSYData).map(([, { topics, description }], index) => (
             <AccordionItem
               key={index}
               value={`item-${index}`}
               className="bg-white rounded-xl shadow-md transition-transform "
             >
               <AccordionTrigger className="px-4 py-3 font-medium text-gray-800 text-lg">
-                <div>
-                  <h2 className="text-lg font-semibold">Dia {index + 1}</h2>
-                  <p className="text-gray-500">...</p>
+                <div className="flex flex-col items-start">
+                  <h2 className="text-lg font-semibold text-left">Dia {index + 1}</h2>
+                  <p className="text-gray-500 text-base text-left">{description}</p>
                 </div>
+
 
               </AccordionTrigger>
 

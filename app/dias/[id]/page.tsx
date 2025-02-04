@@ -37,6 +37,7 @@ export default function DiaEspecifico({ params }: { params: { id: string } }) {
             activity={activity}
             additionalClass="rounded-lg"
             backgroundColor="#ffffff"
+            day={dayKey}
           />
         ))}
       </div>

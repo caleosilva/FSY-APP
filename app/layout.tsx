@@ -1,12 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import Link from "next/link";
-
-import { HomeIcon } from "@radix-ui/react-icons";
-import { ClockIcon } from "@radix-ui/react-icons";
-import { ListBulletIcon } from "@radix-ui/react-icons";
-import { InfoCircledIcon } from "@radix-ui/react-icons";
+import Footer from "@/components/formatedComponents/Footer";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -39,34 +34,8 @@ export default function RootLayout({
           <main className="flex-1">{children}</main>
 
           {/* Navbar fixa no rodapé */}
-          <footer className="fixed bottom-0 left-0 w-full bg-gray-800 text-white">
-            <div className="flex justify-around items-center h-16">
+          <Footer />
 
-              {/* Início */}
-              <Link href="/" className="text-center flex flex-col items-center">
-                <HomeIcon className="w-6 h-6 mb-1" />
-                <p className="text-sm">Início</p>
-              </Link>
-
-              {/* Hoje */}
-              <Link href="/hoje" className="text-center flex flex-col items-center">
-                <ClockIcon className="w-6 h-6 mb-1" />
-                <p className="text-sm">Hoje</p>
-              </Link>
-
-              {/* Dias */}
-              <Link href="/dias" className="text-center flex flex-col items-center">
-                <ListBulletIcon className="w-6 h-6 mb-1" />
-                <p className="text-sm">Dias</p>
-              </Link>
-
-              {/* Sobre */}
-              <Link href="/sobre" className="text-center flex flex-col items-center">
-                <InfoCircledIcon className="w-6 h-6 mb-1" />
-                <p className="text-sm">Sobre</p>
-              </Link>
-            </div>
-          </footer>
         </div>
       </body>
     </html>

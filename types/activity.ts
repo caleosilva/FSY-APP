@@ -11,8 +11,14 @@ export interface KeyPoint {
 }
 
 export interface Activity {
-    time: string;
+    time: { [day: string]: string };
     name: string;
     location: string;
     key_points: KeyPoint[];
+}
+
+export interface DayTopics {
+    [day: string]: {
+        topics: string[];
+    };
 }

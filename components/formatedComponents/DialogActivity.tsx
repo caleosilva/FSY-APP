@@ -21,13 +21,17 @@ interface DialogActivityProps {
     additionalClass?: string;
     backgroundColor?: string
     activity?: Activity;
+    day: string;
 }
 
 export default function DialogActivity({
     additionalClass = "",
     activity,
-    backgroundColor
+    backgroundColor,
+    day
 }: DialogActivityProps) {
+    const timeForDay = activity?.time[day]; // Obter o horário específico para o dia
+
     return (
         <Dialog>
             <DialogTrigger>
@@ -36,9 +40,9 @@ export default function DialogActivity({
                     style={{ backgroundColor }}
                 >
                     <div className="w-1/5 flex flex-col items-center justify-center space-y-4 p-2">
-                        <p>{activity?.time.split(" - ")[0]}</p>
+                        <p>{timeForDay?.split(" - ")[0]}</p>
                         <Separator className="bg-stone-400" />
-                        <p>{activity?.time.split(" - ")[1]}</p>
+                        <p>{timeForDay?.split(" - ")[1]}</p>
                     </div>
 
                     <Separator orientation="vertical" className="bg-stone-400" />
@@ -57,7 +61,7 @@ export default function DialogActivity({
 
                     <div className="w-full grid grid-cols-2 gap-8">
                         <FormFieldView label="Local" placeholder={`${activity?.location}`} className=" " />
-                        <FormFieldView label="Horário" placeholder={`${activity?.time}`} />
+                        <FormFieldView label="Horário" placeholder={`${timeForDay}`} />
                     </div>
 
                     <Separator className="bg-stone-600" />

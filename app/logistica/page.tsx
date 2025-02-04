@@ -11,8 +11,9 @@ export default function Logistica() {
         </h2>
       </div>
 
-      <div className="flex flex-col flex-1 h-full p-4  space-y-4 pb-20 ">
-        Do be developed
+      {/* Accordion Section */}
+      <div className="p-4 space-y-4">
+        to be developed
       </div>
     </div>
   );

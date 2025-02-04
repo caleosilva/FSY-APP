@@ -24,7 +24,7 @@ export default function Hoje() {
       </div>
 
       <div className="p-4 space-y-4">
-        <Accordion type="single" collapsible className="space-y-2">
+        <Accordion type="single" collapsible className="space-y-4">
           {Object.entries(preFSYData).map(([, { topics }], index) => (
             <AccordionItem
               key={index}

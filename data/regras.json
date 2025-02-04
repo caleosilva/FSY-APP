@@ -1,0 +1,49 @@
+{
+    "1": {
+        "titulo": "Padrões de conduta",
+        "descricao": "Seguir os padrões de conduta do FSY impactará sua experiência de forma positiva.",
+        "principais_pontos": [
+            "Aja e interaja de maneira adequada, inclusive ao compartilhar conteúdo.",
+            "Respeite os pertences dos outros, instalações e terrenos.",
+            "Cuide da sua saúde física: hidrate-se, coma bem e durma o suficiente.",
+            "Seja honesto com seu tempo e suas ações. Respeite seus consultores.",
+            "Venha preparado: traga seu manual, lápis/caneta e garrafa de água.",
+            "Use calçados adequados para a Noite de Jogos.",
+            "Trate a todos com bondade e respeito físico, emocional e espiritual.",
+            "Evite comportamentos românticos, brincadeiras inadequadas e tópicos polêmicos."
+        ],
+        "compromisso": "Os participantes devem seguir todos os padrões contidos no guia Força dos Jovens."
+    },
+    "2": {
+        "titulo": "Atividades proibidas",
+        "descricao": "As seguintes atividades podem resultar na expulsão imediata e sem reembolso:",
+        "itens": [
+            "Comportamento imoral, incluindo violação da lei da castidade e consumo de pornografia.",
+            "Roubo, furto ou vandalismo.",
+            "Quebra da Palavra de Sabedoria, incluindo porte de cigarros eletrônicos e drogas ilegais.",
+            "Porte de armas de qualquer tipo.",
+            "Agressão física, espiritual ou emocional, incluindo bullying."
+        ],
+        "consequencias": "Crimes e incidentes graves serão relatados às autoridades locais."
+    },
+    "3": {
+        "titulo": "Permanência no FSY",
+        "descricao": "Espera-se que os participantes permaneçam no FSY durante todo o evento.",
+        "regras": [
+            "Sair sem seguir os procedimentos de check-out pode resultar na expulsão.",
+            "Não participar das atividades programadas sem permissão pode levar a penalidades.",
+            "Quebrar o toque de recolher pode resultar no retorno antecipado para casa."
+        ]
+    },
+    "4": {
+        "titulo": "Normas sobre armas e itens proibidos",
+        "descricao": "O FSY proíbe armas e outros itens para garantir um ambiente seguro e respeitoso.",
+        "armas_proibidas": [
+            "Armas de fogo, facas (incluindo espadas, canivetes), bastões de defesa pessoal, tasers e explosivos."
+        ],
+        "outros_itens_proibidos": [
+            "Fogos de artifício, facas de bolso, sprays de pimenta, materiais inflamáveis, estilingues, armas de airsoft e chumbinho."
+        ],
+        "consequencias": "Itens proibidos serão confiscados, pais serão notificados e os participantes poderão ser mandados para casa sem reembolso."
+    }
+}

@@ -14,53 +14,59 @@ export default function Regras() {
     <div className="flex flex-col h-screen overflow-y-auto pb-20 bg-gray-100">
 
       {/* Header */}
-      <div className="flex flex-col items-start justify-center p-6 bg-white shadow-md ">
-        <h1 className="text-xl font-semibold">Regras</h1>
-        <h2 className="text-base text-gray-500">
-          Regras e proibições do FSY que devem ser entendidas e passadas aos jovens. 
-        </h2>
+      <div className="flex items-center justify-between p-6 bg-blue-600 text-white shadow-md rounded-b-2xl">
+        <div>
+          <h1 className="text-2xl font-bold tracking-wide">Regras</h1>
+          <h2 className="text-sm opacity-90">
+            Normas e proibições do FSY que devem ser entendidas e passadas aos jovens.
+          </h2>
+        </div>
       </div>
 
-      {/* Accordion Section */}
       <div className="p-4 space-y-4">
         <Accordion type="single" collapsible className="space-y-4">
           {Object.entries(typedData).map(([, section], index) => (
             <AccordionItem
               key={index}
               value={`item-${index}`}
-              className="bg-white rounded-xl shadow-md transition-transform"
+              className="rounded-2xl shadow-lg border border-gray-200 "
             >
-              <AccordionTrigger className="px-4 py-3 font-medium text-gray-800 text-lg">
-                <div className="space-y-4">
-                  <h2 className="text-lg font-semibold">{section.titulo}</h2>
-                  <p className="text-gray-500 text-base">{section.descricao}</p>
+              <AccordionTrigger className="flex justify-between items-center px-4 py-4 bg-gradient-to-r from-blue-50 to-white rounded-t-2xl text-gray-800 font-bold text-lg transition-colors hover:bg-blue-100">
+                <div className="space-y-1 text-left">
+                  <h2 className="text-lg text-blue-600">{section.titulo}</h2>
+                  <p className="text-gray-500 text-sm">{section.descricao}</p>
                 </div>
+                {/* <ChevronDownIcon className="w-5 h-5 text-blue-500 transition-transform duration-300 group-data-[state=open]:rotate-180" /> */}
               </AccordionTrigger>
 
-              <AccordionContent className="p-4 text-gray-700 bg-gray-50 rounded-b-xl space-y-2">
-                <ul className="list-disc pl-5 space-y-2">
-                  {section.principais_pontos && section.principais_pontos.map((item: string, index: string) => (
-                    <li key={index}>{item}</li>
+              <AccordionContent className="p-4 bg-gray-50 rounded-b-2xl border-t border-gray-200 space-y-3">
+                <ul className="list-disc pl-5 space-y-2 text-gray-700 text-sm leading-relaxed">
+                  {section.principais_pontos?.map((item: string, index: string) => (
+                    <li key={index} className="hover:text-blue-600 transition-colors">{item}</li>
                   ))}
-                  {section.regras && section.regras.map((item: string, index: string) => (
-                    <li key={index}>{item}</li>
+                  {section.regras?.map((item: string, index: string) => (
+                    <li key={index} className="hover:text-blue-600 transition-colors">{item}</li>
                   ))}
-                  {section.itens && section.itens.map((item: string, index: string) => (
-                    <li key={index}>{item}</li>
+                  {section.itens?.map((item: string, index: string) => (
+                    <li key={index} className="hover:text-blue-600 transition-colors">{item}</li>
                   ))}
-                  {section.armas_proibidas && section.armas_proibidas.map((item: string, index: string) => (
-                    <li key={index}>{item}</li>
+                  {section.armas_proibidas?.map((item: string, index: string) => (
+                    <li key={index} className="hover:text-red-500 transition-colors font-medium">{item}</li>
                   ))}
-                  {section.outros_itens_proibidos && section.outros_itens_proibidos.map((item: string, index: string) => (
-                    <li key={index}>{item}</li>
+                  {section.outros_itens_proibidos?.map((item: string, index: string) => (
+                    <li key={index} className="hover:text-red-500 transition-colors font-medium">{item}</li>
                   ))}
                 </ul>
 
                 {section.compromisso && (
-                  <p className="mt-2 font-semibold text-gray-800">{section.compromisso}</p>
+                  <p className="mt-2 text-blue-700 font-semibold text-center bg-blue-50 p-2 rounded-md shadow-sm">
+                    {section.compromisso}
+                  </p>
                 )}
                 {section.consequencias && (
-                  <p className="mt-2 font-semibold text-red-600">{section.consequencias}</p>
+                  <p className="mt-2 text-red-600 font-bold text-center bg-red-50 p-2 rounded-md shadow-sm">
+                    {section.consequencias}
+                  </p>
                 )}
               </AccordionContent>
             </AccordionItem>

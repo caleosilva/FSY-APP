@@ -118,7 +118,8 @@
     "7": {
         "time": {
             "dia1": "18h - 19h30",
-            "dia2": "18h - 19h30"
+            "dia2": "18h - 19h30",
+            "dia3": "18h - 19h"
         },
         "name": "Jantar",
         "location": "Refeitório",
@@ -149,7 +150,9 @@
     "9": {
         "time": {
             "dia1": "20h45 - 21h15",
-            "dia2": "20h50 - 21h20"
+            "dia2": "20h50 - 21h20",
+            "dia3": "21h15 - 21h45"
+
         },
         "name": "Refletir e analisar",
         "location": "A definir",
@@ -180,7 +183,9 @@
     "10": {
         "time": {
             "dia1": "21h15 - 22h10",
-            "dia2": "21h20 - 22h10"
+            "dia2": "21h20 - 22h10",
+            "dia3": "21h45 - 22h30"
+
         },
         "name": "Contagem dos participantes, higiene pessoal, hora do silêncio, estudo pessoal/diário",
         "location": "Nos quartos",
@@ -202,7 +207,8 @@
     "11": {
         "time": {
             "dia1": "22h10",
-            "dia2": "22h10"
+            "dia2": "22h10",
+            "dia3": "22h30"
 
         },
         "name": "Apagar as luzes",
@@ -233,7 +239,8 @@
     },
     "13": {
         "time": {
-            "dia2": "7h45 - 8h"
+            "dia2": "7h45 - 8h",
+            "dia3": "7h45 - 8h"
         },
         "name": "Reunião matutina do coordenador assistente/consultor",
         "location": "A definir",
@@ -250,7 +257,8 @@
     },
     "14": {
         "time": {
-            "dia2": "8h - 8h15"
+            "dia2": "8h - 8h15",
+            "dia3": "8h - 8h15"
         },
         "name": "Devocional Matutino dos Participantes",
         "location": "A definir",
@@ -271,7 +279,8 @@
     },
     "15": {
         "time": {
-            "dia2": "8h15 - 9h15"
+            "dia2": "8h15 - 9h15",
+            "dia3": "8h15 - 9h15"
         },
         "name": "Desjejum",
         "location": "Refeitório",
@@ -305,7 +314,8 @@
     },
     "17": {
         "time": {
-            "dia2": "10h40 - 11h30"
+            "dia2": "10h40 - 11h30",
+            "dia3": "9h25 - 10h15"
         },
         "name": "Estudo do Vem, e Segue-Me",
         "location": "Local da companhia",
@@ -399,7 +409,8 @@
     },
     "19": {
         "time": {
-            "dia2": "13h - 14h30"
+            "dia2": "13h - 14h30",
+            "dia3": "12h30 - 13h50"
         },
         "name": "Almoço e ensaio do Programa Musical",
         "location": "A definir",
@@ -411,6 +422,10 @@
             {
                 "title": "Apoio no ensaio",
                 "details": "Consultores podem ser chamados para auxiliar."
+            },
+            {
+                "title": "Testes para o Show de Variedades",
+                "details": "Acontecerá no terceiro dia, fique atento e informe seus jovens!"
             }
         ]
     },
@@ -525,6 +540,154 @@
             {
                 "title": "Oradores",
                 "details": "O devocional será conduzido pelo Setenta de Área, Presidente de Estaca ou o casal diretor da sessão."
+            }
+        ]
+    },
+    "24": {
+        "time": {
+            "dia3": "11h30 - 12h25"
+        },
+        "name": "Viver o Evangelho",
+        "location": "Local da companhia",
+        "key_points": [
+            {
+                "title": "Cronograma",
+                "details": "Organização da atividade em rodízios e atividades individuais.",
+                "timeline": [
+                    {
+                        "time": "10 min",
+                        "description": "Introdução, explicação da atividade e divisão dos grupos"
+                    },
+                    {
+                        "time": "20 min",
+                        "description": "Primeira parte da descoberta: Atividade em equipe"
+                    },
+                    {
+                        "time": "20 min",
+                        "description": "Segunda parte da descoberta: Atividade individual e plano de desenvolvimento pessoal"
+                    },
+                    {
+                        "time": "5 min",
+                        "description": "Conclusão e reflexões finais"
+                    }
+                ]
+            },
+            {
+                "title": "Objetivos",
+                "details": "Inspirar os jovens a responder ao convite para coligar Israel e conectar-se com sua história familiar."
+            },
+            {
+                "title": "Primeira parte da descoberta: Compartilhe sua história",
+                "details": "Atividades em grupo para explorar a história da família, com foco em conexão e realização pessoal."
+            },
+            {
+                "title": "Segunda parte da descoberta: Descubra e registre sua história",
+                "details": "Atividades individuais focadas em conexão pessoal com a herança familiar, incluindo o plano de desenvolvimento pessoal."
+            },
+            {
+                "title": "Encerramento",
+                "details": "Compartilhamento de reflexões, reforço do propósito da coligação de Israel e breve testemunho dos consultores."
+            }
+        ]
+    },
+    "25": {
+        "time": {
+            "dia3": "14h00 - 14h30"
+        },
+        "name": "Preparação de Faixas e Gritos de Guerra de Torcidas",
+        "location": "A definir",
+        "key_points": [
+            {
+                "title": "Faixa",
+                "details": "Deve refletir o caráter do nome da companhia, sem nomes ou títulos da Divindade. Consultores não podem desenhar."
+            },
+            {
+                "title": "Grito de Guerra",
+                "details": "Duração máxima de 1 minuto, com entusiasmo, criatividade e união. Sem participação ativa dos consultores."
+            },
+            {
+                "title": "Restrições",
+                "details": "Sem acessórios (exceto faixa), pulos perigosos, ou referências religiosas."
+            }
+        ]
+    },
+    "26": {
+        "time": {
+            "dia3": "14h30 - 15h40"
+        },
+        "name": "Tarde de Jogos e Concurso de Gritos de Guerra de Torcidas",
+        "location": "A definir",
+        "key_points": [
+            {
+                "title": "Objetivo",
+                "details": "O propósito da Tarde de jogos é ajudar a unir sua companhia, não gerar discórdia ou competição."
+            },
+            {
+                "title": "Jogos",
+                "details": "Promover trabalho em equipe e diversão, sem foco excessivo na competição. Seguir instruções do coordenador."
+            },
+            {
+                "title": "Rodízio de Atividades",
+                "details": "Manter o grupo unido, ativo e animado entre os rodízios."
+            },
+            {
+                "title": "Atenção",
+                "details": "Caso tenha tempo extra entre os rodízios, mantenha sua companhia reunida, ativa e animada."
+            },
+            {
+                "title": "Concurso de Gritos de Guerra",
+                "details": "Apresentar gritos selecionados pelos juízes. Encorajar positividade e apoio entre as companhias."
+            },
+            {
+                "title": "Seja um exemplo",
+                "details": "Não deve haver vaias ou comentários negativos. Se seu grupo não vencer, fique alegre; seu exemplo determinará a atitude dos jovens."
+            }
+        ]
+    },
+    "27": {
+        "time": {
+            "dia3": "15h40 - 16h20"
+        },
+        "name": "FSY Humano",
+        "location": "A definir",
+        "key_points": [
+            {
+                "title": "Organização",
+                "details": "Seguir instruções dos coordenadores para a foto tradicional com as letras FSY formadas pelos participantes."
+            }
+        ]
+    },
+    "28": {
+        "time": {
+            "dia3": "16h20 - 17h50"
+        },
+        "name": "Normas de Etiqueta ao Dançar, Tomar Banho e se Arrumar para o Baile",
+        "location": "A definir",
+        "key_points": [
+            {
+                "title": "Explicação Rápida",
+                "details": "Consultores explicam brevemente as normas de etiqueta ao dançar enquanto os jovens se preparam para o baile."
+            }
+        ]
+    },
+    "29": {
+        "time": {
+            "dia3": "19h00 - 21h00"
+        },
+        "name": "Baile + Lanche nos 30 Minutos Finais",
+        "location": "Auditório central",
+        "key_points": [
+            {
+                "title": "Supervisão dos Jovens",
+                "details": "Manter o padrão de dança, incentivando inclusão e respeito. Consultores não devem dançar, a não ser que os coordenadores solicitem."
+            },
+            {
+                "title": "Tarefas do Baile",
+                "details": "Cumprir turnos de 45 minutos em tarefas designadas, como supervisãoF de áreas específicas."
+            },
+            {
+                "title": "Lanche Final",
+                "details": "Garantir que os jovens aproveitem o lanche antes de retornarem aos quartos nos últimos 30 minutos."
             }
         ]
     }

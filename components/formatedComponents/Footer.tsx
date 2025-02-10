@@ -28,14 +28,6 @@ export default function Footer() {
                 <Link href="/dias" className="group text-center flex flex-col items-center transition-transform duration-300 hover:scale-110 relative">
                     <ListBulletIcon className="w-6 h-6 mb-1 group-hover:text-blue-400 transition-colors duration-300" />
                     <p className="text-xs group-hover:text-blue-400">Dias</p>
-                    {/* <span className="absolute -top-1 right-0 bg-red-500 text-white text-[10px] px-1 rounded-full">3</span> */}
-                    {/* Indicador de notificações, se necessário */}
-                </Link>
-
-                {/* Logística */}
-                <Link href="/logistica" className="group text-center flex flex-col items-center transition-transform duration-300 hover:scale-110">
-                    <InfoCircledIcon className="w-6 h-6 mb-1 group-hover:text-blue-400 transition-colors duration-300" />
-                    <p className="text-xs group-hover:text-blue-400">Logística</p>
                 </Link>
             </div>
         </footer>

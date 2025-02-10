@@ -119,7 +119,8 @@
         "time": {
             "dia1": "18h - 19h30",
             "dia2": "18h - 19h30",
-            "dia3": "18h - 19h"
+            "dia3": "18h - 19h",
+            "dia4": "17h - 18h20"
         },
         "name": "Jantar",
         "location": "Refeitório",
@@ -151,12 +152,17 @@
         "time": {
             "dia1": "20h45 - 21h15",
             "dia2": "20h50 - 21h20",
-            "dia3": "21h15 - 21h45"
-
+            "dia3": "21h15 - 21h45",
+            "dia4": "21h - 21h30",
+            "dia5": "11h50h - 12h30"
         },
         "name": "Refletir e analisar",
         "location": "A definir",
         "key_points": [
+            {
+                "title": "Atenção",
+                "details": "No último dia, o debate é realizado com toda a companhia ao invés de somente com os grupos dos consultores."
+            },
             {
                 "title": "Discussão espiritual",
                 "details": "Crie um ambiente espiritual para reflexões e compartilhe testemunhos sobre experiências do dia."
@@ -184,8 +190,8 @@
         "time": {
             "dia1": "21h15 - 22h10",
             "dia2": "21h20 - 22h10",
-            "dia3": "21h45 - 22h30"
-
+            "dia3": "21h45 - 22h30",
+            "dia4": "21h15 - 22h30"
         },
         "name": "Contagem dos participantes, higiene pessoal, hora do silêncio, estudo pessoal/diário",
         "location": "Nos quartos",
@@ -208,8 +214,8 @@
         "time": {
             "dia1": "22h10",
             "dia2": "22h10",
-            "dia3": "22h30"
-
+            "dia3": "22h30",
+            "dia4": "22h30"
         },
         "name": "Apagar as luzes",
         "location": "Nos quartos",
@@ -240,7 +246,9 @@
     "13": {
         "time": {
             "dia2": "7h45 - 8h",
-            "dia3": "7h45 - 8h"
+            "dia3": "7h45 - 8h",
+            "dia4": "7h45 - 8h",
+            "dia5": "7h45 - 8h"
         },
         "name": "Reunião matutina do coordenador assistente/consultor",
         "location": "A definir",
@@ -258,7 +266,9 @@
     "14": {
         "time": {
             "dia2": "8h - 8h15",
-            "dia3": "8h - 8h15"
+            "dia3": "8h - 8h15",
+            "dia4": "8h - 8h15",
+            "dia5": "8h - 8h15"
         },
         "name": "Devocional Matutino dos Participantes",
         "location": "A definir",
@@ -280,7 +290,9 @@
     "15": {
         "time": {
             "dia2": "8h15 - 9h15",
-            "dia3": "8h15 - 9h15"
+            "dia3": "8h15 - 9h15",
+            "dia4": "8h15 - 9h15",
+            "dia5": "8h15 - 9h15"
         },
         "name": "Desjejum",
         "location": "Refeitório",
@@ -315,7 +327,8 @@
     "17": {
         "time": {
             "dia2": "10h40 - 11h30",
-            "dia3": "9h25 - 10h15"
+            "dia3": "9h25 - 10h15",
+            "dia4": "9h25 - 9h45"
         },
         "name": "Estudo do Vem, e Segue-Me",
         "location": "Local da companhia",
@@ -345,6 +358,10 @@
                         "description": "Oração final"
                     }
                 ]
+            },
+            {
+                "title": "Atenção",
+                "details": "No quarto dia, o estudo é reduzido a apenas 20 minutos. Sendo assim, incentive os  jovens a realizarem o estudo pessoal durante esse tempo."
             },
             {
                 "title": "Objetivo",
@@ -431,7 +448,8 @@
     },
     "20": {
         "time": {
-            "dia2": "14h30 - 15h30"
+            "dia2": "14h30 - 15h30",
+            "dia4": "15h50 - 16h40"
         },
         "name": "Tempo Livre",
         "location": "A definir",
@@ -447,6 +465,10 @@
             {
                 "title": "Atenção",
                 "details": "Não é necessário que eles fiquem com os jovens das suas companhias, mas eles precisam estar cientes de que devem estar no local designado ao término do tempo livre."
+            },
+            {
+                "title": "Orientação",
+                "details": "Se necessário, orinte seus jovens quanto a próxima atividade."
             }
         ]
     },
@@ -688,6 +710,295 @@
             {
                 "title": "Lanche Final",
                 "details": "Garantir que os jovens aproveitem o lanche antes de retornarem aos quartos nos últimos 30 minutos."
+            }
+        ]
+    },
+    "30": {
+        "time": {
+            "dia4": "10h00 - 11h00"
+        },
+        "name": "Devocional do Casal Diretor de Sessão (Rapazes)",
+        "location": "Auditório central",
+        "key_points": [
+            {
+                "title": "Separação por grupos",
+                "details": "O devocional será realizado separadamente para rapazes e moças. Nesse momento, os rapazes participam, enquanto as moças fazem a atividade O Cristo Vivo, depois trocam."
+            },
+            {
+                "title": "Atenção e anotações",
+                "details": "Os consultores devem sentar-se com seus jovens, prestar atenção e incentivar que façam anotações."
+            }
+        ]
+    },
+    "31": {
+        "time": {
+            "dia4": "11h20 - 12h20"
+        },
+        "name": "Devocional do Casal Diretor de Sessão (Moças)",
+        "location": "Auditório central",
+        "key_points": [
+            {
+                "title": "Separação por grupos",
+                "details": "O devocional será realizado separadamente para rapazes e moças. Nesse momento, as moças participam, enquanto os rapazes fazem a atividade O Cristo Vivo."
+            },
+            {
+                "title": "Atenção e anotações",
+                "details": "Os consultores devem sentar-se com seus jovens, prestar atenção e incentivar que façam anotações."
+            }
+        ]
+    },
+    "32": {
+        "time": {
+            "dia4": "10h - 11h"
+        },
+        "name": "Atividade O Cristo Vivo (Moças)",
+        "location": "A definir",
+        "key_points": [
+            {
+                "title": "Dinâmica da atividade",
+                "details": "Os jovens ensinam uns aos outros com base em perguntas e referências previamente designadas."
+            },
+            {
+                "title": "Divisão de equipes",
+                "details": "No primeiro dia, os consultores dividiram os jovens em quatro equipes para facilitar a dinâmica da atividade."
+            },
+            {
+                "title": "Perguntas abordadas",
+                "list": [
+                    "Que pensais vós do Cristo? (Mateus 22:42)",
+                    "De que maneira o que você pensa de Cristo influencia a formação de seu caráter?",
+                    "Por que Jesus Cristo é o único caminho para a salvação?",
+                    "O que significa tomar o nome de Cristo sobre mim? (Doutrina e Convênios 20:77)"
+                ]
+            }
+        ]
+    },
+    "33": {
+        "time": {
+            "dia4": "11h20 - 12h20"
+        },
+        "name": "Atividade O Cristo Vivo (Rapazes)",
+        "location": "A definir",
+        "key_points": [
+            {
+                "title": "Dinâmica da atividade",
+                "details": "Os jovens ensinam uns aos outros com base em perguntas e referências previamente designadas."
+            },
+            {
+                "title": "Divisão de equipes",
+                "details": "No primeiro dia, os consultores dividiram os jovens em quatro equipes para facilitar a dinâmica da atividade."
+            },
+            {
+                "title": "Perguntas abordadas",
+                "list": [
+                    "Que pensais vós do Cristo? (Mateus 22:42)",
+                    "De que maneira o que você pensa de Cristo influencia a formação de seu caráter?",
+                    "Por que Jesus Cristo é o único caminho para a salvação?",
+                    "O que significa tomar o nome de Cristo sobre mim? (Doutrina e Convênios 20:77)"
+                ]
+            }
+        ]
+    },
+    "34": {
+        "time": {
+            "dia4": "13h - 14h"
+        },
+        "name": "Ensaio Final para o Show de Variedades",
+        "location": "A definir",
+        "key_points": [
+            {
+                "title": "Preparação",
+                "details": "Os jovens devem estar prontos para seus números e ensaiar as transições entre apresentações."
+            },
+            {
+                "title": "Papel dos consultores",
+                "details": "Apoiar os participantes com acessórios, equipamentos e apoio moral, seguindo as instruções do coordenador assistente."
+            }
+        ]
+    },
+    "35": {
+        "time": {
+            "dia4": "13h50 - 14h10"
+        },
+        "name": "Tempo Livre (curto)",
+        "location": "A definir",
+        "key_points": [
+            {
+                "title": "Ideia por trás",
+                "details": "Por ser curto, mantenha seus jovens por perto e oriente-os sobre as diretrizes do Show de Variedades."
+            },
+            {
+                "title": "Deslocamento",
+                "details": "Sigam juntos para o Show de Variedades no horário indicado, estando sentados 10 minutos antes do início."
+            }
+        ]
+    },
+    "36": {
+        "time": {
+            "dia4": "14h20 - 15h40"
+        },
+        "name": "Show de Variedades",
+        "location": "Auditório central",
+        "key_points": [
+            {
+                "title": "Abertura",
+                "details": "O evento iniciará com uma apresentação de line dance feita pelo Casal Diretor, Coordenadores, Coordenadores Assistentes e equipe de logística."
+            },
+            {
+                "title": "Chamadas ao palco",
+                "details": "Os jovens serão chamados ao palco pelo nome durante o evento."
+            },
+            {
+                "title": "Papel dos consultores",
+                "details": "Os consultores devem ser exemplos para seus jovens, incentivando-os e aplaudindo todas as apresentações, criando um ambiente divertido e animado."
+            }
+        ]
+    },
+    "37": {
+        "time": {
+            "dia4": "16h - 16h50"
+        },
+        "name": "Ensaio Final para o Programa Musical",
+        "location": "A definir",
+        "key_points": [
+            {
+                "title": "Apoio no ensaio",
+                "details": "Se for designado, ajude na organização e no suporte aos participantes do programa musical."
+            }
+        ]
+    },
+    "38": {
+        "time": {
+            "dia4": "18h30 - 19h40"
+        },
+        "name": "Programa Musical e Devocional do Casal Diretor",
+        "location": "Auditório central",
+        "key_points": [
+            {
+                "title": "Chegada no horário",
+                "details": "Certifique-se de que os jovens cheguem a tempo para o programa musical."
+            },
+            {
+                "title": "Atenção e reverência",
+                "details": "Os jovens devem permanecer atentos durante o programa e o devocional que ocorrerá imediatamente após."
+            },
+            {
+                "title": "Saída reverente",
+                "details": "Após o devocional, os jovens devem sair em silêncio e se dirigir ao local da companhia para a reunião de testemunho."
+            }
+        ]
+    },
+    "39": {
+        "time": {
+            "dia4": "20h - 20h50"
+        },
+        "name": "Reunião de Testemunho",
+        "location": "Local da Companhia",
+        "key_points": [
+            {
+                "title": "Abertura",
+                "details": "Escolha um hino e peça a dois participantes que façam as orações de abertura e encerramento."
+            },
+            {
+                "title": "Orientação sobre testemunho",
+                "details": "Explique aos jovens o que é um testemunho e o que é apropriado compartilhar."
+            },
+            {
+                "title": "Tempo limitado",
+                "details": "Lembre os jovens do horário e, caso não consigam compartilhar, podem fazê-lo no refletir e analisar."
+            },
+            {
+                "title": "Sem medo do silêncio",
+                "details": "Não tenha medo do silêncio, ele faz parte. Além disso, oriente aos participantes que permaneçam reverentes se houver longos intervalos entre os testemunhos."
+            }
+        ]
+    },
+    "40": {
+        "time": {
+            "dia5": "09h30 - 10h10"
+        },
+        "name": "Conecte-se",
+        "location": "A definir",
+        "key_points": [
+            {
+                "title": "Aplicação prática",
+                "details": "Os jovens compartilharão nas redes sociais suas experiências no FSY, princípios aprendidos ou testemunhos."
+            },
+            {
+                "title": "Criação de conteúdo",
+                "details": "Eles podem usar TikTok, Instagram, Facebook ou outros meios, valorizando vídeos e textos sinceros."
+            },
+            {
+                "title": "Solução offline",
+                "details": "Como não haverá internet para os jovens, o conteúdo pode ser produzido e postado posteriormente (o quanto antes)."
+            },
+            {
+                "title": "Simbolismo",
+                "details": "Os jovens desenham um coração no estandarte e assinam seus nomes para simbolizar seu compromisso com a coligação de Israel."
+            },
+            {
+                "title": "Encerramento",
+                "details": "Debate sobre o papel de cada um no Reino de Deus, seguido de testemunhos e oração."
+            }
+        ]
+    },
+    "41": {
+        "time": {
+            "dia5": "10h25 - 10h40"
+        },
+        "name": "Apresentação de Slides",
+        "location": "Auditório central",
+        "key_points": [
+            {
+                "title": "Transição organizada",
+                "details": "Acompanhe os jovens até a área designada para a apresentação."
+            }
+        ]
+    },
+    "42": {
+        "time": {
+            "dia5": "10h40 - 11h40"
+        },
+        "name": "O que vou levar para casa",
+        "location": "A definir",
+        "key_points": [
+            {
+                "title": "Devocional final",
+                "details": "Mensagem do casal diretor na mesma área da apresentação de slides."
+            }
+        ]
+    },
+    "43": {
+        "time": {
+            "dia5": "12h30 - 13h40"
+        },
+        "name": "Almoço e Arrumar as Malas",
+        "location": "A definir",
+        "key_points": [
+            {
+                "title": "Despedidas e registros",
+                "details": "Os jovens podem tirar fotos e trocar contatos."
+            },
+            {
+                "title": "Conduta apropriada",
+                "details": "Caso desejem manter contato com seus jovens, devem fazê-lo de maneira prudente e adequada."
+            }
+        ]
+    },
+    "44": {
+        "time": {
+            "dia5": "14h - 15h"
+        },
+        "name": "Saída dos Participantes",
+        "location": "A definir",
+        "key_points": [
+            {
+                "title": "Procedimentos de saída",
+                "details": "Certifique-se de seguir corretamente as instruções e vistoriar os quartos antes da saída."
+            },
+            {
+                "title": "Retorno seguro",
+                "details": "Após a finalização dos procedimentos, os jovens e consultores podem voltar para casa."
             }
         ]
     }

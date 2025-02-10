@@ -36,23 +36,27 @@ export default function DialogActivity({
         <Dialog>
             <DialogTrigger>
                 <div
-                    className={`flex w-full h-32  shadow-md bg-white p-4 ${additionalClass}`}
+                    className={`flex w-full h-32 shadow-lg bg-gray-100 p-4 rounded-xl ${additionalClass}`}
                     style={{ backgroundColor }}
                 >
-                    <div className="w-1/5 flex flex-col items-center justify-center space-y-4 p-2">
-                        <p>{timeForDay?.split(" - ")[0]}</p>
-                        <Separator className="bg-stone-400" />
-                        <p>{timeForDay?.split(" - ")[1]}</p>
+                    {/* Caixa de horário */}
+                    <div className="w-1/5 flex flex-col items-center justify-center space-y-2 p-2">
+                        <p className="text-lg font-semibold text-gray-700">{timeForDay?.split(" - ")[0]}</p>
+                        <Separator className="bg-stone-400 opacity-50 w-full" />
+                        <p className="text-lg font-semibold text-gray-700">{timeForDay?.split(" - ")[1]}</p>
                     </div>
 
-                    <Separator orientation="vertical" className="bg-stone-400" />
+                    {/* Separador vertical mais sutil */}
+                    <Separator orientation="vertical" className="bg-stone-400 opacity-40 w-[2px]" />
 
-                    <div className="w-4/5 flex items-center justify-center">
-                        <p className="text-md "> {`${activity?.name}`} </p>
+                    {/* Nome da atividade */}
+                    <div className="w-4/5 flex items-center justify-center text-center">
+                        <p className="text-lg  text-gray-800">{activity?.name}</p>
                     </div>
                 </div>
-
             </DialogTrigger>
+
+
             <DialogContent className="w-11/12 sm:max-w-md rounded-lg">
                 <DialogHeader className="items-start gap-y-2">
                     <DialogTitle className="">{activity?.name}</DialogTitle>
@@ -79,6 +83,17 @@ export default function DialogActivity({
                                             <div className="mt-2">
                                                 <ul className="list-disc pl-5">
                                                     {point.todo.map((task, taskIndex) => (
+                                                        <li className="mb-2" key={taskIndex}>{task}</li>
+                                                    ))}
+                                                </ul>
+                                            </div>
+                                        )}
+
+                                        {/* Exibir lista de tarefas (todo) */}
+                                        {point.list && point.list.length > 0 && (
+                                            <div className="mt-2">
+                                                <ul className="list-disc pl-5">
+                                                    {point.list.map((task, taskIndex) => (
                                                         <li className="mb-2" key={taskIndex}>{task}</li>
                                                     ))}
                                                 </ul>

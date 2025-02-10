@@ -21,27 +21,29 @@ export default function Dias() {
 
   return (
     <div className="flex flex-col h-screen overflow-y-auto pb-20 bg-gray-100">
-
+      
       {/* Header */}
-      <div className="flex flex-col items-start justify-center p-6 bg-white shadow-md ">
-        <h1 className="text-xl font-semibold">Dias</h1>
-        <h2 className="text-base text-gray-500">
-          Informações essenciais sobre as atividades, organizadas por dia.
-        </h2>
+      <div className="flex items-center justify-between p-6 bg-blue-600 text-white shadow-md rounded-b-2xl">
+        <div>
+          <h1 className="text-2xl font-bold tracking-wide">Dias</h1>
+          <h2 className="text-sm opacity-90">
+            Informações essenciais sobre as atividades, organizadas por dia.
+          </h2>
+        </div>
       </div>
 
       <div className="flex flex-col flex-1 h-auto p-4 space-y-4">
         {dias.map((dia) => (
           <div
             key={dia.id}
-            className="flex items-center justify-between p-6 bg-white shadow-md rounded-lg cursor-pointer hover:bg-gray-100 transition"
+            className="flex items-center justify-between p-6 bg-white shadow-md rounded-lg cursor-pointer hover:bg-gray-100 transition bg-gradient-to-r from-blue-50 to-white"
             onClick={() => handleRedirect(String(dia.id))}
           >
             <div>
-              <h2 className="text-lg font-semibold">{dia.title}</h2>
-              <p className="text-gray-500">{dia.description}</p>
+              <h2 className="text-lg font-bold text-blue-600">{dia.title}</h2>
+              <p className="text-gray-500 text-sm  text-left">{dia.description}</p>
             </div>
-            <ChevronRightIcon className="w-6 h-6 text-gray-400" />
+            <ChevronRightIcon className="w-5 h-5 text-gray-600" />
           </div>
         ))}
       </div>
